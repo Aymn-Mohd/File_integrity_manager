@@ -2,7 +2,7 @@
 
 ## Overview
 
-The File Integrity Manager (FIM) is a Python-based tool designed to create baselines for text files using the SHA256 hash algorithm and monitor file integrity in real-time. Whether you need to ensure the security of critical files or detect unauthorized changes, FIM provides a straightforward solution.
+The File Integrity Manager (FIM) is a Python-based tool designed to create baselines for text files using the SHA256 hash algorithm and monitor file integrity in real time. Whether you need to ensure the security of critical files or detect unauthorized changes, FIM provides a straightforward solution.
 
 ## Features
 
@@ -18,14 +18,6 @@ The File Integrity Manager (FIM) is a Python-based tool designed to create basel
    - Simple command-line interface (CLI) for easy setup and management.
    - Intuitive prompts guide users through the baseline creation and monitoring processes.
 
-4. **Configuration Options:**
-   - Customize monitoring settings, including file inclusion/exclusion rules and notification preferences.
-   - Flexible configuration ensures adaptability to various use cases.
-
-5. **Logging and Notifications:**
-   - Log monitoring activities for review and auditing purposes.
-   - Configure notifications or alerts to receive timely updates on integrity issues.
-
 ## Getting Started
 
 1. **Installation:**
@@ -36,25 +28,25 @@ The File Integrity Manager (FIM) is a Python-based tool designed to create basel
 2. **Usage:**
    - Create a baseline for a text file:
      ```
-     python fim.py create_baseline <file_path>
+     python main.py A <file_path>
      ```
    - Monitor a text file:
      ```
-     python fim.py monitor <file_path>
+     python main.py B <file_path>
      ```
 
 ## Example
 
-### Creating Baseline for a Text File
+### Creating a Baseline for a Text File
 
 ```bash
-python fim.py create_baseline example.txt
+python main.py A example.txt
 ```
 
 ### Monitoring a Text File
 
 ```bash
-python fim.py monitor example.txt
+python main.py B example.txt
 ```
 
 ## License
