@@ -28,11 +28,11 @@ The File Integrity Manager (FIM) is a Python-based tool designed to create basel
 2. **Usage:**
    - Create a baseline for a text file:
      ```
-     python main.py A <file_path>
+     python main.py A <file_name>
      ```
    - Monitor a text file:
      ```
-     python main.py B <file_path>
+     python main.py B <file_name>
      ```
 
 ## Example
@@ -40,15 +40,19 @@ The File Integrity Manager (FIM) is a Python-based tool designed to create basel
 ### Creating a Baseline for a Text File
 
 ```bash
-python main.py A example.txt
+python main.py A example
 ```
 
 ### Monitoring a Text File
 
 ```bash
-python main.py B example.txt
+python main.py B example
 ```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## For Explanation 
+
+Vist the medium page - bit.ly/fimedium
