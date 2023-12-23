@@ -55,4 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## For Explanation 
 
-Vist the medium page - bit.ly/fimedium
+Visit the [Medium Page](bit.ly/fimedium)
